@@ -6,7 +6,7 @@ var $ = require('jquery')
 xhr.get('https://api.wheretheiss.at/v1/satellites', function(err, data) {
   if (err) console.log(err) // do something
 
-  console.log(data.body)
+  console.log("logging something!")
   document.body.innerHTML = example({ name: "Space" });
 })
 
